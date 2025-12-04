@@ -40,6 +40,16 @@ Consultas SQL com:
 Comandos:
 - **UPDATE** (mínimo 3)
 
+- Como Executar
+
+1. Abra o **SQLite Studio**
+2. Vá em: **Tools → Open SQL Editor**
+3. Execute os scripts na seguinte ordem:
+   - `01_create_tables.sql`
+   - `02_insert.sql`
+   - `03_select.sql` (para testar as consultas)
+   - `04_update_delete.sql` (para testar manipulação)
+
 Banco de Dados Utilizado
 
 SQLite 3
